@@ -1,0 +1,39 @@
+# WhatsApp Groups Configuration - SLC Automation
+# ═══════════════════════════════════════════════════════════════
+#
+# Recommended Method: Use Group ID (more accurate and faster)
+# Alternative Method: Use Group Name (or part of it)
+#
+# ═══════════════════════════════════════════════════════════════
+# 
+# To extract all your groups with IDs:
+# 1. Run MENU.bat and choose option 4
+# 2. Or run extract-groups.bat directly
+# 3. Copy IDs from extracted-groups-ids.txt file
+# 4. Paste here (one ID per line)
+#
+# ═══════════════════════════════════════════════════════════════
+#
+# Example using ID (preferred method):
+# 120363042857629284@g.us
+# 120363028474629847@g.us
+#
+# Example using names (alternative method):
+# work
+# friends
+# family
+#
+# ═══════════════════════════════════════════════════════════════
+#
+# Add your groups here (remove # from beginning of line):
+
+# Selected groups for messaging:
+# 120363042857629284@g.us  # Work Group  
+# 120363028474629847@g.us  # University Friends
+# 120363019384729583@g.us  # Big Family
+
+# Instructions:
+# 1. Remove # from the beginning of the lines you want to activate
+# 2. Keep # for groups you don't want to send to
+# 3. Example of active group:
+# 120363042857629284@g.us

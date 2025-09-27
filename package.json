@@ -1,0 +1,19 @@
+{
+  "name": "slc-whatsapp-automation",
+  "version": "1.0.0",
+  "description": "Automated WhatsApp group messaging with scheduling and instant send.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "send-now": "node src/sendNow.js",
+    "setup": "node src/setup.js",
+    "extract-groups": "node src/extractGroups.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "fs-extra": "^11.2.0",
+    "winston": "^3.10.0"
+  }
+}
